@@ -1,7 +1,12 @@
+#content {
+  color: red;
+  text-align: center;
+}
+
 body {
+  background-attachment: fixed;
+  background-size: 100%;
   background-image: url(
     'https://placeimg.com/640/480/nature'
   );
-  background-attachment: fixed;
-  background-size: 100%;
 }

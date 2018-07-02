@@ -3,3 +3,7 @@
 
 # node dependencies
 node_modules
+package-lock.json
+
+# ignore js bundle
+site/js/main.bundle.js
