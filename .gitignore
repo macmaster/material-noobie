@@ -1,5 +1,5 @@
 # vim swap files
-*.s[a-w][a-z]
+*.sw[a-z]
 
 # node dependencies
 node_modules
