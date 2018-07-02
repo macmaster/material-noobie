@@ -8,7 +8,7 @@ npm run build
 ```
 
 # Structure
-
+```
 ├── client
 │   └── index.js
 ├── config
@@ -21,3 +21,4 @@ npm run build
     ├── index.html
     └── js
         └── main.bundle.js
+```
