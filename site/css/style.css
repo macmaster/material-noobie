@@ -1,0 +1,7 @@
+body {
+  background-image: url(
+    'https://placeimg.com/640/480/nature'
+  );
+  background-attachment: fixed;
+  background-size: 100%;
+}

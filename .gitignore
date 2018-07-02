@@ -1,0 +1,5 @@
+# vim swap files
+*.s[a-w][a-z]
+
+# node dependencies
+node_modules
