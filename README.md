@@ -1,5 +1,5 @@
 # material-noobie
-Create dead simple Material-UI without billions of node dependencies.
+Create dead simple Material applications without billions of node dependencies.
 
 # Setup
 ```
@@ -11,15 +11,24 @@ npm run build
 # Structure
 ```
 ├── client
-│   └── index.js
+│   ├── index.js
+│   ├── nav
+│   │   └── AppBar.js
+│   ├── store
+│   │   ├── actions
+│   │   │   └── items.js
+│   │   ├── index.js
+│   │   └── reducers
+│   │       ├── index.js
+│   │       └── items.js
+│   └── style
+│       └── theme.js
 ├── config
 │   └── webpack.js
-├── package.json
 └── site
     ├── css
     │   └── style.css
     ├── images
-    ├── index.html
-    └── js
-        └── main.bundle.js
+    │   └── leaf.png
+    └── index.html
 ```
