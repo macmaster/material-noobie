@@ -6,4 +6,4 @@ node_modules
 package-lock.json
 
 # ignore js bundle
-site/js/main.bundle.js
+site/js/main.js

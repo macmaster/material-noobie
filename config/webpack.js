@@ -7,7 +7,7 @@ module.exports = {
   entry: path.resolve(src_dir, 'index.js'),
 
   output: {
-    filename: '[name].bundle.js',
+    filename: '[name].js',
     path: `${path.resolve(build_dir)}/js`,
   },
 
@@ -15,7 +15,23 @@ module.exports = {
     rules: [{ 
       test: /\.js$/,
       exclude: /node_modules/,
-      use: ['babel-loader']
+      loader: 'babel-loader',
+      options: {
+        presets: [
+          "@babel/preset-react",
+          "@babel/preset-env",
+        ],
+        plugins: [
+          "transform-class-properties",
+        ]
+      }
     }]
+  },
+
+  resolve: {
+    modules: [
+      path.resolve(src_dir),
+      path.resolve('node_modules')
+    ]
   }
 };

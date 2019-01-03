@@ -1,40 +1,41 @@
 {
-  "name": "react-noobie",
+  "name": "material-noobie",
   "version": "1.0.0",
-  "description": "Create a dead simple react project.",
+  "license": "Apache-2.0",
+  "author": "Ronald Macmaster <ronnymacmaster@gmail.com>",
+  "description": "Create a dead simple Material UI project.",
   "main": "client/index.js",
   "scripts": {
-    "build": "webpack --config config/webpack.js"
+    "build": "webpack --config config/webpack.js",
+    "deploy": "webpack --config config/webpack.js --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ronny-macmaster/react-noobie.git"
+    "url": "https://github.com/ronny-macmaster/material-noobie.git"
   },
   "keywords": [
     "create",
     "barebone",
     "react",
+    "redux",
+    "material-ui",
     "applications"
   ],
-  "author": "Ronald Macmaster <ronnymacmaster@gmail.com>",
-  "license": "Apache-2.0",
-  "babel": {
-    "presets": [
-      "react",
-      "env"
-    ]
-  },
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "@material-ui/core": "^3.8.1",
+    "@material-ui/icons": "^3.0.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.0",
-    "@babel/core": "^7.2.0",
-    "@babel/preset-env": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2",
-    "babel-loader": "8.0.4"
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
   }
 }

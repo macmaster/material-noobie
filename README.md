@@ -1,9 +1,10 @@
-# react-starter
-Create dead simple React applications without billions of package.json dependencies.
+# material-noobie
+Create dead simple Material-UI without billions of node dependencies.
 
 # Setup
 ```
 npm install
+npm update
 npm run build
 ```
 
